@@ -41,3 +41,6 @@ document.addEventListener('DOMContentLoaded', function () {
         window.open(whatsappLink.href, '_blank');
     });
 });
+function toggleMenu() {
+    document.querySelector(".navbar").classList.toggle("show");
+}
